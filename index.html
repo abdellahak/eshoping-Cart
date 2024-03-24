@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mini projet 9 cart</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- project created by Abdellah Khouden -->
+  <body>
+    <!-- Header / Nav -->
+    <header>
+      <nav>
+        <a href=""
+          ><h1>
+            <abbr title="ABDELLAH KHOUDEN ESHOP" onclick="switchUnderline(1)"
+              >Abdellah Eshop</abbr
+            >
+          </h1></a
+        >
+        <ul>
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li><a href="index.html#store">Store</a></li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+        </ul>
+        <a href="#cartarticles" id="cart">
+          <img src="icons/cart.png" alt="" />
+          <div id="circlenbr">0</div>
+        </a>
+      </nav>
+    </header>
+    <!-- hero -->
+    <div id="hero">
+      <div id="green">
+        <h1>
+          Abdellah <br />
+          Eshop
+        </h1>
+        <img src="phones/for hero.png" alt="" />
+        <a href="#store" id="shopnow">Shop Now</a>
+      </div>
+    </div>
+    <!-- main -->
+    <main id="store">
+      <h3>Store:</h3>
+      <div id="articles">
+        <!-- here we put all phone articles  -->
+      </div>
+    </main>
+    <!-- cart -->
+    <div id="cartarticles">
+      <h3>Your BAG:</h3>
+      <div id="items">
+        <div id="emptycart">Your Cart is empty, please select a product.</div>
+        <!-- here we put all phones selected by user -->
+      </div>
+      <hr />
+      <div id="total">
+        <span>Total:</span>
+        <span id="totalprice">$0</span>
+      </div>
+      <a id="cleararticles" onclick="clearCart()">Clear Cart</a>
+    </div>
+    <div id="about">
+      <div id="blackbg">
+        <div id="titleabout">About:</div>
+        <h2>mini projet 9 cart:</h2>
+        <h3>
+          this website created by
+          <a href="https://github.com/abdellahak" target="_blank"
+            >Abdellah Khouden</a
+          >
+        </h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
