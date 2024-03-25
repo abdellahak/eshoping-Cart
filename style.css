@@ -244,6 +244,7 @@ article a:active {
   display: block;
   color: blue;
   cursor: pointer;
+  width:fit-content;
 }
 #changeunit {
   display: flex;
